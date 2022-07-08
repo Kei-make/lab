@@ -2,10 +2,10 @@ from PIL import Image
 import glob
 # Pillow でカラー画像を読み込む
 
-filename = glob.glob("C: / Users/kei83/Pictures/2022-06-28/*.png")
+filename = glob.glob("/Users/ke/Desktop/???.png")
 
 for i in filename:
-    pil_image_color = Image.open(i).convert("P")
+    pil_image_color = Image.open(i).convert("1")
     pil_image_color.save("005.png")
 
 
